@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: beige;
+  padding: 10px;
+  display: flex;
+}
+header nav {
+  width: 100vw;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  margin: 5px;
+}
+main {
+  padding: 10px;
+}
+header nav ul li a {
+  color: #9999;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: lightgreen;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 5px auto;
+  width: 60%;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
